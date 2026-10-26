@@ -719,7 +719,7 @@ p { text-align: justify; text-justify: inter-word; }
 }
 
 .site-header.scrolled .brand-icon img {
-  height: 85px; /* Sebelumnya 75px */
+  height: 75px; /* Sebelumnya 75px */
 }
 
 .site-header.scrolled .brand-name {
@@ -728,7 +728,7 @@ p { text-align: justify; text-justify: inter-word; }
 
 /* OVERRIDE UKURAN LOGO HEADER */
 .site-header .brand .brand-icon img {
-  height: 95px !important;
+  height: 80px !important;
   width: auto !important;
   max-width: none !important;
   max-height: none !important;
