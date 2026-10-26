@@ -737,7 +737,7 @@ p { text-align: justify; text-justify: inter-word; }
 
 /* Ukuran logo saat header di-scroll */
 .site-header.scrolled .brand .brand-icon img {
-  height: 105px !important;
+  height: 90px !important;
 }
 
 /* Ukuran logo pada perangkat mobile */
