@@ -743,11 +743,11 @@ p { text-align: justify; text-justify: inter-word; }
 /* Ukuran logo pada perangkat mobile */
 @media (max-width: 600px) {
   .site-header .brand .brand-icon img {
-    height: 40px !important;
+    height: 43px !important;
   }
 
   .site-header.scrolled .brand .brand-icon img {
-    height: 45px !important;
+    height: 48px !important;
   }
 }
 
