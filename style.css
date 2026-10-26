@@ -66,18 +66,23 @@ button { font: inherit; }
   animation: heroZoom 18s ease-in-out infinite;
   will-change: transform, opacity;
 }
+
+/* HERO SLIDESHOW — path relatif untuk Vercel */
 .hero-slide.slide-one {
-  background-image: url("G:\\web-akifa-multi\\Asset\\bus1.jpg");
+  background-image: url("./Asset/bus1.jpg");
   animation-delay: 0s;
 }
+
 .hero-slide.slide-two {
-  background-image: url("G:\\web-akifa-multi\\Asset\\bus2.jpg");
+  background-image: url("./Asset/bus2.jpg");
   animation-delay: -6s;
 }
+
 .hero-slide.slide-three {
-  background-image: url("G:\\web-akifa-multi\\Asset\\bus3.jpg");
+  background-image: url("./Asset/bus3.jpg");
   animation-delay: -12s;
 }
+
 
 /* Zoom dan pergantian gambar */
 @keyframes heroZoom {
