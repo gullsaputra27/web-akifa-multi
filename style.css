@@ -583,11 +583,77 @@ p { text-align: justify; text-justify: inter-word; }
 .business-card { border-radius: 12px; padding: 24px 22px; min-height: 245px; }
 .business-card:hover { transform: translateY(-5px); }
 
-/* Portofolio menggunakan foto lebar dengan panel informasi di samping */
-.project-feature { grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); border-radius: 14px; overflow: hidden; }
-.project-photo { min-height: 500px; }
-.project-photo img { object-position: center; }
-.project-info { padding: 38px; }
+
+/* === PORTOFOLIO: FOTO KIRI, INFORMASI PROYEK KANAN === */
+
+.projects .project-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 36px;
+  width: 100%;
+}
+
+.projects .project-photo {
+  width: 100%;
+  min-width: 0;
+}
+
+.projects .project-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.projects .project-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 20px;
+  padding-top: 8px;
+}
+
+.projects .project-item {
+  width: 100%;
+}
+
+.projects .project-item .kicker {
+  margin: 0 0 8px;
+}
+
+.projects .project-item h3 {
+  margin: 0 0 6px;
+}
+
+.projects .project-item p {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.projects .project-status {
+  margin-top: 12px;
+}
+
+.projects .project-divider {
+  width: 100%;
+  height: 1px;
+  background: var(--line, #e8e2d7);
+}
+
+/* Tampilan tablet dan HP */
+@media (max-width: 768px) {
+  .projects .project-feature {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .projects .project-info {
+    padding-top: 0;
+  }
+}
+
 
 /* Galeri foto: grid thumbnail responsif dan gambar utama lebar */
 .gallery-main img { width: 100%; max-height: 560px; object-fit: cover; object-position: center; }
