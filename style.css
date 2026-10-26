@@ -680,6 +680,7 @@ p { text-align: justify; text-justify: inter-word; }
   .project-info { padding: 23px; }
 }
 /* HEADER AKIFA MULTIUSAHA */
+
 .site-header {
   position: sticky;
   top: 0;
@@ -699,7 +700,7 @@ p { text-align: justify; text-justify: inter-word; }
 .site-header .brand-icon img {
   display: block;
   width: auto;
-  height: 65px;
+  height: 80px; /* Sebelumnya 65px */
   object-fit: contain;
   transition:
     height 0.3s ease,
@@ -707,25 +708,23 @@ p { text-align: justify; text-justify: inter-word; }
   transform-origin: left center;
 }
 
-/* NAMA PERUSAHAAN */
+/* NAMA PERUSAHAAN — TETAP */
 .site-header .brand-name {
   transition: transform 0.3s ease;
 }
 
-/* SAAT SCROLL KE BAWAH */
+/* SAAT SCROLL KE BAWAH — EFEK TETAP */
 .site-header.scrolled {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
 .site-header.scrolled .brand-icon img {
-  height: 75px;
+  height: 85px; /* Sebelumnya 75px */
 }
 
 .site-header.scrolled .brand-name {
   transform: scale(0.95);
 }
-
-
 
 /* === Bagian kontak dan formulir email === */
 .contact-section { background: #fff; color: #10203a; }
