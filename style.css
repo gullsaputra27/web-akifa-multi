@@ -700,7 +700,7 @@ p { text-align: justify; text-justify: inter-word; }
 .site-header .brand-icon img {
   display: block;
   width: auto;
-  height: 80px; /* Sebelumnya 65px */
+  height: 65px; /* Sebelumnya 65px */
   object-fit: contain;
   transition:
     height 0.3s ease,
