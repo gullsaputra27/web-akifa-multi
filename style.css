@@ -726,6 +726,31 @@ p { text-align: justify; text-justify: inter-word; }
   transform: scale(0.95);
 }
 
+/* OVERRIDE UKURAN LOGO HEADER */
+.site-header .brand .brand-icon img {
+  height: 95px !important;
+  width: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain;
+}
+
+/* Ukuran logo saat header di-scroll */
+.site-header.scrolled .brand .brand-icon img {
+  height: 105px !important;
+}
+
+/* Ukuran logo pada perangkat mobile */
+@media (max-width: 600px) {
+  .site-header .brand .brand-icon img {
+    height: 65px !important;
+  }
+
+  .site-header.scrolled .brand .brand-icon img {
+    height: 70px !important;
+  }
+}
+
 /* === Bagian kontak dan formulir email === */
 .contact-section { background: #fff; color: #10203a; }
 .contact-top { background: #101f38; color: #fff; padding: 24px 0 48px; }
