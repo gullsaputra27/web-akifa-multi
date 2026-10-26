@@ -719,7 +719,7 @@ p { text-align: justify; text-justify: inter-word; }
 }
 
 .site-header.scrolled .brand-icon img {
-  height: 75px; /* Sebelumnya 75px */
+  height: 70px; /* Sebelumnya 75px */
 }
 
 .site-header.scrolled .brand-name {
@@ -728,7 +728,7 @@ p { text-align: justify; text-justify: inter-word; }
 
 /* OVERRIDE UKURAN LOGO HEADER */
 .site-header .brand .brand-icon img {
-  height: 80px !important;
+  height: 75px !important;
   width: auto !important;
   max-width: none !important;
   max-height: none !important;
@@ -737,7 +737,7 @@ p { text-align: justify; text-justify: inter-word; }
 
 /* Ukuran logo saat header di-scroll */
 .site-header.scrolled .brand .brand-icon img {
-  height: 90px !important;
+  height: 80px !important;
 }
 
 /* Ukuran logo pada perangkat mobile */
