@@ -699,7 +699,7 @@ p { text-align: justify; text-justify: inter-word; }
 .site-header .brand-icon img {
   display: block;
   width: auto;
-  height: 50px;
+  height: 65px;
   object-fit: contain;
   transition:
     height 0.3s ease,
@@ -718,7 +718,7 @@ p { text-align: justify; text-justify: inter-word; }
 }
 
 .site-header.scrolled .brand-icon img {
-  height: 55px;
+  height: 75px;
 }
 
 .site-header.scrolled .brand-name {
